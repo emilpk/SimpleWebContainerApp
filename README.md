@@ -7,3 +7,8 @@ To use locally:
 3. install the required packages from root of project > 'npm i'
 4. run the Metro bundler > 'npm run start'
 5. start the application > 'npm run android'
+6. your application should load/display in an Android Emulator (via Android Studio)
+
+If you wish to change the website presented in the mobile app, simply update this line in the App.tsx file
+
+`const targetSite = 'https://www.sportingnews.com/uk/football/news';`
